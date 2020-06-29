@@ -1,0 +1,15 @@
+{
+    "name": "event",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "truffle test test/testEvent.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "truffle": "^5.1.25",
+        "truffle-assertions": "^0.9.2"
+    }
+}
