@@ -1,10 +1,10 @@
 {
-    "name": "event",
+    "name": "contract",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "truffle test test/testEvent.js"
+        "test": "truffle test test/testGetSet.js"
     },
     "author": "",
     "license": "ISC",
