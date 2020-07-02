@@ -6,7 +6,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "clean": "rm -rf public",
-        "build": "./node_modules/.bin/webpack",
+        "build": "./node_modules/.bin/webpack --env.prod",
         "build:dev": "npm-run-all -p build:watch run",
         "build:watch": "./node_modules/.bin/webpack --env.sandbox --watch",
         "run": "python3 server.py"
